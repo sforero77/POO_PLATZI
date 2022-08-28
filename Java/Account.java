@@ -1,4 +1,4 @@
-public class Account {
+class Account {
     Integer id;
     String name;
     String document;
@@ -6,9 +6,7 @@ public class Account {
     String password;
 
     public Account(String name, String document){
-        this.name=name;
-        this.document=document;
+        this.name = name;
+        this.document = document;
     }
-
-    
 }
